@@ -1,0 +1,32 @@
+{
+  "name": "@code-convention/stylelint-config",
+  "version": "1.0.0",
+  "description": "zcvfcat-stylelint-config",
+  "homepage": "https://github.com/code-convention/stylelint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-convention/stylelint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/code-convention/stylelint-config/issues",
+    "email": "zcvfcat@gmail.com"
+  },
+  "keywords": [
+    "stylelint-config",
+    "code-convention",
+    "zcvfcat"
+  ],
+  "main": ".stylelintrc.js",
+  "scripts": {
+    "fix:style": "stylelint **/*.css"
+  },
+  "author": "zcvfcat zcvfcat@gmail.com (https://zcvfcat.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.19.0"
+  },
+  "devDependencies": {
+    "stylelint": "^13.13.1"
+  }
+}
